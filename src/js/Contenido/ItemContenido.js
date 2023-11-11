@@ -1,4 +1,4 @@
-import { capuccinoItaliano } from "../bancoImg"
+import logoCirculo from "../../img/logoRosaCirculo.png"
 
 export const ItemContenido = ({productos})=>{
 
@@ -8,7 +8,7 @@ export const ItemContenido = ({productos})=>{
             productos.map(item=>(/* para renderizar siempre en paréntesis los maps */
                 <article key={item.idProducto} className="contenedorCaja">
                     <section className="contenedorImgCaja">
-                        <img className="imgCaja" alt="" src={capuccinoItaliano} />
+                        <img className="imgCaja" alt="" src={logoCirculo} />
                     </section>
                     <section className="contenedorTextoCaja">   
                         <section className="contenedorDetalle">

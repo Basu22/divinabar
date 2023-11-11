@@ -1,0 +1,57 @@
+form{
+    color:$color-secundario;
+    display: grid;
+    grid-template-areas: 
+    "nombreProducto inputNombre"
+    "detalleProducto inputDetalle"
+    "precioProducto inputPrecio"
+    "categoriaProducto inputCategoria"
+    "subcatProducto inputSubcat"
+    "textoCheckbox checkbox"
+    "button button";
+    gap: 10px;
+
+    
+    #nombreProducto{
+        grid-area: nombreProducto;
+    }
+    #inputNombre{
+        grid-area: inputNombre;
+    }
+    #detalleProducto{
+        grid-area: detalleProducto;
+    }
+    #inputDetalle{
+        grid-area: inputDetalle;
+    }
+    #precioProducto{
+        grid-area: precioProducto;
+    }
+    #inputPrecio{
+        grid-area: inputPrecio;
+    }
+    #categoriaProducto{
+        grid-area: categoriaProducto;
+    }
+    #inputCategoria{
+        grid-area: inputCategoria;
+    }
+    #subcatProducto{
+        grid-area: subcatProducto;
+    }
+    #inputSubcat{
+        grid-area: inputSubcat;
+    }
+    #textoCheckbox{
+        grid-area: textoCheckbox;
+    }
+    #checkbox{
+        grid-area: checkbox;
+    }
+    #button{
+        grid-area: button;
+    }
+    
+
+}
+

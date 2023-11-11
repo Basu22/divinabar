@@ -1,5 +1,6 @@
 @import './variables.scss';
 @import './global.scss';
-@import './header.scss';
-@import './contenido.scss';
-@import './footer.scss';
+@import '../js/Header/header.scss';
+@import '../js/Contenido/contenido.scss';
+@import '../js/Footer/footer.scss';
+@import '../js/Admin/panelAdmin.scss'

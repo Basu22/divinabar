@@ -6,10 +6,13 @@ import { Footer } from './Footer/Footer';
 import { PanelAdmin } from './Admin/panelAdmin';
 
 
+
 export const App = ()=>{
 
+
     return(
-        <BrowserRouter>
+
+        <BrowserRouter>    
             <Header />
 
             <Routes>
@@ -18,7 +21,7 @@ export const App = ()=>{
                 <Route path='*' element={<Navigate to='/cafeteria' />} />
             </Routes>
             
-            <Footer />
+            {/* <Footer /> */}
         </BrowserRouter>
     )
 }
