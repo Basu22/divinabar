@@ -14,7 +14,7 @@ export const App = ()=>{
 
             <Routes>
                 <Route path='/:idCategoria' element={<Contenido/>} />
-                <Route path='/admin' element={<PanelAdmin/>} />
+                <Route path='/panelAdmin' element={<PanelAdmin/>} />
                 <Route path='*' element={<Navigate to='/cafeteria' />} />
             </Routes>
             
