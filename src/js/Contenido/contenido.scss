@@ -56,7 +56,7 @@
                 display: flex;
                 flex-direction: column;
                 align-items: flex-end;
-                border-top: 1px solid var(--primery-2, #FBD2D8);
+                border-top: 1px solid var(--primery-2, $color-principal);
                 .detallePrecio{
                     
                     font-size: 24px;
