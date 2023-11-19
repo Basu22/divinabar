@@ -1,9 +1,6 @@
 import { Link } from "react-router-dom"
 
 export const PanelAdmin = ()=>{
-
-
-
     return(
         <section className="contenedorBotoneraAdmin">
             <Link to='/altaProductos'>
