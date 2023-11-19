@@ -1,6 +1,10 @@
 @import './variables.scss';
 @import './global.scss';
 @import '../js/Header/header.scss';
-@import '../js/Contenido/contenido.scss';
+@import '../js/Content/contenido.scss';
 @import '../js/Footer/footer.scss';
-@import '../js/Admin/panelAdmin.scss'
+@import '../js/Admin/AltaForm/formAlta.scss';
+@import '../js/Admin/ModAlta/listadoProductos.scss';
+@import '../js/Admin/ModAlta/listadoProductosFiltrados.scss';
+@import '../js/Admin/ModAlta/FromMod.scss';
+@import '../js/Admin/PanelAdmin.scss'
