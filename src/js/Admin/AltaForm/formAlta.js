@@ -1,8 +1,8 @@
 import {  useState } from "react"
-import { addFirebase } from "../../firebase/events/addFirebase"
 import { SelectSubcategorias } from "./selectSubcategoria"
 import { SelectCategorias } from "./selectCategoria "
 import { Link } from "react-router-dom"
+import { addFirebase } from "../../firebase/events/addFirebase"
 
 export const FormAlta =  ()=>{
     
@@ -45,6 +45,7 @@ export const FormAlta =  ()=>{
     const handleSubmit = (e) => {
         e.preventDefault()
         addFirebase(datos, 'productos')
+        
     }
 
     return (

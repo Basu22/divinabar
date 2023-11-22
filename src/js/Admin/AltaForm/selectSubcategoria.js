@@ -29,6 +29,7 @@ export const SelectSubcategorias = ({handle, defaultSubcategoria})=>{
 
         return(
                 <select id='inputSubcategoria' name="idSubcategoria" onChange={handle} >
+                {(!defaultSubcategoria) ? <option key='blanco' value='blanco' selected> </option> : null}
                     {
                         subcategorias.map(opt=>{
                             return (defaultSubcategoria===opt.idSubcategoria) ? <option key={opt.idSubcat} value={opt.idSubcategoria} selected>{opt.nombreSubcategoria}</option> : <option key={opt.idSubcat} value={opt.idSubcategoria}>{opt.nombreSubcategoria}</option>

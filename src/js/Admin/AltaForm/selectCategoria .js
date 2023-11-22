@@ -31,6 +31,7 @@ export const SelectCategorias = ({handle, defaultCategoria})=>{
         return(
                 <select id='inputCategoria' name="idCategoria" onChange={handle}>
                     <>
+                    {(!defaultCategoria) ? <option key='blanco' value='blanco' selected> </option> : null}
                     {
                         categorias.map(opt=>{
                             return (defaultCategoria===opt.idCategoria)? <option key={opt.idCat} value={opt.idCategoria} selected >{opt.nombreCategoria}</option> : <option key={opt.idCat} value={opt.idCategoria}>{opt.nombreCategoria}</option>
